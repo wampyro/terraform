@@ -1,0 +1,2 @@
+# terraform
+creacion de maquina 
