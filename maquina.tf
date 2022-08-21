@@ -1,4 +1,4 @@
-resource "aws_instance" "maquina-prueba"¨{
+resource "aws_instance" "maquina-prueba"{
     name          = "dev-${var.project_id}-maquina-prueba-${var.regions["region1"]}-1"
     machine_type  = "t2.micro"
     zone          = "us-central1-a"
@@ -6,7 +6,7 @@ resource "aws_instance" "maquina-prueba"¨{
     project_name  = local.project_name
     startup_scrip = var.startup
 
-// en el apartado de tags selecionamos de que manera sera la coneccion a la maquina ya sea por eqtiquetas de red
+// en el apartado de tags selecionamos de que manera sera la coneccion a la maquina ya sea por etiquetas de red
 // o por algun nombre en especifico 
     
     

@@ -15,5 +15,5 @@ variable "regions"{
 
 variable "startup"{
     description = "startup extra"
-    default     = "sudo apt-get install -y docker-ce docker-ce-cli containerd.io "
+    default     = " apt-get install -y docker-ce docker-ce-cli containerd.io ;  apt-get install mysql ;  apt-get install git "
 }
